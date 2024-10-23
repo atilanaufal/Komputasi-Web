@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    text-align: justify;
+}
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+
+ 
+}
+.nav-menu-right {
+    margin-right: 10%;
+}
+
+.nav-bg {
+    background-color: rgb(103, 1, 1);
+}
+
+.nav-text-color-active {
+    color: rgb(255, 29, 29) !important;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.nav-text-color {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.nav-text-color:hover {
+    color: rgb(255, 29, 29) ;
+}
+
+.nav-text-color:active {
+    color: rgb(207, 24, 24);
+}
+
+.txt-gray {
+    color: rgb(190, 190, 190)!important;
+}
+
+.banner-title {
+    border-bottom: 2.5px solid rgb(255, 29, 29);
+    margin-bottom: 2rem;
+    display: inline-block;
+
+}
+.acc-icon {
+    max-width: 4rem;
+    max-height:  4rem;
+}
+
+.contact-bar {
+    position: relative;
+    margin-top: 20px;
+}
+
+.contact-bar input, .contact-bar textarea {
+    background-color: #212529;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.contact-bar label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    color: #888;
+    font-size: 1rem;
+    transform: translateY(-50%);
+    transition: 0.2s ease all;
+    pointer-events: none;
+}
+
+.contact-bar input:focus, .contact-bar textarea:focus {
+    border: 2px solid red;
+    outline: none;
+}
+
+.contact-bar input:focus ~ label,
+.contact-bar textarea:focus ~ label,
+.contact-bar input:not(:placeholder-shown) ~ label,
+.contact-bar textarea:not(:placeholder-shown) ~ label {
+    top: -10px;
+    font-size: 0.875rem;
+    color: #fff;
+}
+
+textarea {
+    resize: none;
+}
+
+.w-md-50 {
+    width: 50%;
+  }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #212529 inset !important;
+    color: #888 !important;
+     transition: background-color 0s, color 0s;
+ }
+
+ input:-webkit-autofill:focus, textarea:-webkit-autofill:focus {
+        -webkit-box-shadow: 0 0 0 1000px #212529 inset !important;
+        color: #888 !important;
+  }
+  
+
+  
+  
+@media (max-width: 767.98px) {
+    .w-md-50 {
+        width: 100%;
+      }
+    .nav-text-color-active {    
+        font-size: 1rem;
+    }    
+    .nav-text-color {
+        font-size: 1rem ;
+    }
+    .banner-title {
+        
+        margin: 2rem 0;
+    }
+}
+  
+   
+
+@media (max-width: 450px) {
+ 
+
+    .nav-text-color-active {
+        font-size: 0.9rem;
+    }
+    
+    .nav-text-color {
+        font-size: 0.9rem ;
+    }
+    .snk-icon {
+        max-width: 30px;
+        max-height: 30px;
+    }
+
+    
+}
+ 

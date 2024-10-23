@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    text-align: justify;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+ 
+ 
+}
+.nav-menu-right {
+    margin-right: 10%;
+}
+
+.nav-bg {
+    background-color: rgb(103, 1, 1);
+}
+
+.nav-text-color-active {
+    color: rgb(255, 29, 29) !important;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.nav-text-color {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.nav-text-color:hover {
+    color: rgb(255, 29, 29) ;
+}
+
+.nav-text-color:active {
+    color: rgb(207, 24, 24);
+}
+
+.occupation-x{
+    border-left: 2.5px solid rgb(255, 29, 29) ;
+    border-right: 2.5px solid rgb(255, 29, 29) ;
+    text-align: start;
+}
+.occupation-l{
+    border-left: 2.5px solid rgb(255, 29, 29) ;
+    text-align: start;
+}
+
+.banner-title {
+    border-bottom: 2.5px solid rgb(255, 29, 29) ;
+    display: inline-block;
+    text-align: start;
+    
+}
+.txt-gray {
+    color: rgb(190, 190, 190)!important;
+}
+
+
+
+
+
+
+
+.bd-intr{
+    border-bottom: 3px solid rgb(255, 29, 29) ;
+    border-top: 3px solid rgb(255, 29, 29) ;
+}
+
+
+  .acbg-w {
+    width: 60%;
+}
+.mt-sect {
+    margin-top: 8rem;
+}
+.container-sk {
+    width: 400px; 
+    height: 200px; 
+    margin: 10px auto; 
+}
+
+.acbg-icon {
+    width: 80px; 
+    height: 80px; 
+}
+
+.intr-icon {
+    max-width: 8rem;
+    max-height: 8rem;
+}
+
+.txt-sm {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+
+    .banner-pfp {
+        width: 75%; 
+        height: 70%; 
+        margin: 20px 0px;
+      
+      }
+
+
+      .acbg-icon {
+        width: 60px;
+        height: 60px;
+    }
+    .intr-icon {
+        max-width: 6rem;
+        max-height: 6rem;
+    }
+    .txt-sm > p, .txt-sm > span{
+        font-size: 1rem !important;
+        text-align: center;
+        margin: 0rem 1rem !important;
+        padding: 0.25rem  !important;
+    }
+    .txt-sm-b > p, .txt-sm-b > span{
+        font-size: 1rem !important;
+        text-align: justify;
+        margin: 0rem 1rem !important;
+        padding: 0.25rem  !important;
+    }
+    .row2 {
+        justify-content: space-evenly !important;
+    }
+    .container-sk {
+        width: 240px;
+        height: 320px;
+    }
+    .container-mk {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .container-intr {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    
+
+}
+
+@media (max-width: 991.9px) {
+  
+
+    .txt-sm > p, .txt-sm > span{
+        font-size: 0.9rem  !important;
+        text-align: start;
+        margin: 0rem 1rem !important;
+        padding: 0.25rem  !important;
+    }
+    .txt-sm-b > p, .txt-sm-b > span{
+        font-size: 0.9rem !important;
+        text-align: justify;
+        margin: 0rem 1rem !important;
+        padding: 0.25rem  !important;
+    }
+
+    .container-sk {
+        width: 320px;
+        height: 180px;
+        
+    }
+    .acbg-icon {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .txt-sm > p, .txt-sm > span{
+        font-size: 0.8rem !important;
+        text-align: center;
+        margin: 0rem 1rem !important;
+        padding: 0.25rem  !important;
+    }
+    .txt-sm-b > p, .txt-sm-b > span{
+        font-size: 0.7rem !important;
+        text-align: justify;
+        margin: 0rem 1rem !important;
+        padding: 0.25rem  !important;
+    }
+    .nav-text-color-active {    
+        font-size: 1rem;
+    }    
+    .nav-text-color {
+        font-size: 1rem ;
+    }
+    .container-sk {
+        width: 160px;
+        height: 170px;
+    }
+
+    .acbg-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+
+}
+  
+
+    
+
+@media (max-width: 480px) {
+ 
+
+    .nav-text-color-active {
+        font-size: 0.9rem;
+    }
+    
+    .nav-text-color {
+        font-size: 0.9rem ;
+    }
+
+    .txt-sm > :first-child{
+        display: none !important;
+        
+    }
+    .container-sk {
+        width: 150px;
+        height: 170px;
+        margin: 10px 0; 
+    }
+
+    .acbg-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    
+}
+ 
+  
+ 

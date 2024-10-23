@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    text-align: justify;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.title-left {
+    margin-left: 7%;
+}
+
+.nav-menu-right {
+    margin-right: 10%;
+}
+
+.nav-bg {
+    background-color: rgb(103, 1, 1);
+}
+
+.nav-text-color-active {
+    color: rgb(255, 29, 29) !important;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.nav-text-color {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.nav-text-color:hover {
+    color: rgb(255, 29, 29) ;
+}
+
+.nav-text-color:active {
+    color: rgb(207, 24, 24);
+}
+
+
+
+ /* Full-screen container */
+ .image-background {
+    display: flex;
+    height: 87.2vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+    justify-content: center;
+
+}
+
+/* Individual images covering equal parts of the container */
+.image-background div {
+    flex: 1; /* Each image takes equal space */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+/* Background images */
+.image1 {
+    background-image: url('../asset/image/c-sharp-purple.png');
+    
+}
+.image2 {
+    background-image: url('../asset/image/flutter.svg');
+}
+.image3 {
+    background-image: url('../asset/image/figma-b.jpg');
+}
+.image4 {
+    background-image: url('../asset/image/blender.jpg');
+}
+
+/* Optional: Overlay and text styling */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark overlay */
+}
+
+.overlay h1 {
+    font-size: 3rem;
+}
+
+.overlay p {
+    font-size: 1.50rem;
+}
+.occupation-l{
+    border-left: 2.5px solid rgb(255, 29, 29) ;
+    text-align: start;
+}
+
+.banner-title {
+    border-bottom: 2.5px solid rgb(255, 29, 29) ;
+    display: inline-block;
+    text-align: start;
+    
+}
+.project-card{
+  width: 30%;
+  height: 49vh;
+  object-fit: cover;
+  object-position: center;
+ 
+}
+
+.txt-gray {
+    color: rgb(190, 190, 190)!important;
+}
+
+
+
+.snk-title {
+    border-bottom: 2.5px solid rgb(255, 29, 29) ;
+}
+
+.snk-icon {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.snk-border {
+    border-left: 3px solid rgb(255, 29, 29) ;
+}
+
+.ft-prj-mt {
+    margin-top: 8rem;
+}
+.w-md-50 {
+    width: 50%;
+  }
+
+.prj-card{
+    text-decoration: none;
+}  
+
+.prj-card > div:hover{
+    box-shadow: 0 0 1rem 0.5rem rgba(255, 29, 29, 0.35) !important;
+}  
+
+.prj-card > div:active{
+    box-shadow: 0 0 3rem 1rem rgba(158, 18, 18, 0.35) !important;
+    background-color: #1b1e21 !important;
+}  
+
+@media (max-width: 767.98px) {
+    .w-md-50 {
+      width: 100%;
+    }
+    .prj-img-w{
+        width: 100%;
+    }
+    .banner-pfp {
+        width: 75%; /* Further increase width on very small screens */
+        height: 70%; /* Adjust height accordingly */
+        margin: 20px 0px;
+      
+      }
+    .nav-text-color-active {    
+        font-size: 1rem;
+    }    
+    .nav-text-color {
+        font-size: 1rem ;
+    }
+    .image-background div {
+        height: 88.1vh; /* Slightly increase height to fit smaller screens better */
+    }
+
+    .overlay h1 {
+        font-size: 2rem !important; /* Further reduce the overlay text size */
+    }
+    .overlay p {
+        font-size: 1rem; /* Further reduce the overlay text size */
+    }
+    .overlay{
+        height: 100vh;
+    }
+
+}
+  
+   
+
+@media (max-width: 450px) {
+ 
+
+    .nav-text-color-active {
+        font-size: 0.9rem;
+    }
+    
+    .nav-text-color {
+        font-size: 0.9rem ;
+    }
+    .snk-icon {
+        max-width: 30px;
+        max-height: 30px;
+    }
+
+    
+}
+ 
