@@ -1,3 +1,5 @@
+CREATE DATABASE paketkita;
+USE paketkita;
 CREATE TABLE UserAcc(
 	id INT PRIMARY KEY AUTO_INCREMENT,
 	username VARCHAR(255),
